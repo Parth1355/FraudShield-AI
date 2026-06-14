@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment files
+.env
+.env.*
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Generated datasets and model artifacts
+data/*.csv
+data/*.parquet
+models/*.pkl
+models/*.joblib
+outputs/
+
+# Office temporary files
+~$*
+docs/~$*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local GitHub setup notes
+GITHUB_PROFILE_README.md
+GITHUB_PUBLISHING_GUIDE.md
+conversation_*.md
